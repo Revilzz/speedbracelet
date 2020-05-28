@@ -26,7 +26,7 @@ class SettingsPage extends StatelessWidget{
             new Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                SliderContainer()
+                SliderContainer()//Slider baren
               ],
               
             )
@@ -38,7 +38,7 @@ class SettingsPage extends StatelessWidget{
   }
 }
 
-class SliderContainer extends StatefulWidget{
+class SliderContainer extends StatefulWidget{//Här börjar det för slider baren
   @override
   _SliderContainerState createState() => _SliderContainerState();
 }

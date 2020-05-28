@@ -44,7 +44,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context){
-    return new Scaffold(
+    return new Scaffold(//"Loggan"
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -76,7 +76,7 @@ class MyHomePage extends StatelessWidget {
                 )
               ]
               ),
-            new Row(
+            new Row(// Texten
 
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -85,7 +85,7 @@ class MyHomePage extends StatelessWidget {
                     child: new Text("Speed Bracelet",style: new TextStyle(fontSize: 30.0),),
                   )
             ],),
-            Myfunc(),
+            Myfunc(),//Knappen/funktionen start/stop
             new Row(
               children: <Widget>[
                 Expanded(
@@ -95,7 +95,7 @@ class MyHomePage extends StatelessWidget {
                         onTap: (){
                           Navigator.push(context, MaterialPageRoute(builder: (context) => WorkoutPage()));
                         },
-                          child: new Container(
+                          child: new Container(//Workout knappen
                           height: 70.0,
                           alignment: Alignment.center,
                           decoration: new BoxDecoration(color: Color(0xFFFCC244), borderRadius: new BorderRadius.circular(10.0)),
@@ -111,7 +111,7 @@ class MyHomePage extends StatelessWidget {
                         onTap: (){
                           Navigator.push(context, MaterialPageRoute(builder: (context) => SettingsPage()));
                         },
-                          child: new Container(
+                          child: new Container(//Settings knappen
                           height: 70.0,
                           alignment: Alignment.center,
                           decoration: new BoxDecoration(color: Color(0xFFFC4A44), borderRadius: new BorderRadius.circular(10.0)),

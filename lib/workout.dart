@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-class WorkoutPage extends StatelessWidget{
+class WorkoutPage extends StatelessWidget{//En tom workout sida. Ska användas senare i utvecklingen
   @override
   Widget build(BuildContext context){
     return new Scaffold(
